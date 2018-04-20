@@ -1,5 +1,7 @@
 import {MyOptions} from './MyOptions';
 
-interface JQuery {
-    DoesntWork(): void;
+declare global {
+    interface JQuery {
+        DoesntWork(): void;
+    }
 }
